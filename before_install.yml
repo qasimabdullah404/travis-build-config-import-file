@@ -1,1 +1,2 @@
-echo "In before_install of diff repo"
+before_install:
+  - echo "In before_install of diff repo"
