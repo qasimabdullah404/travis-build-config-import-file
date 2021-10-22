@@ -3,4 +3,7 @@ dist: focal
 language: shell
 before_install:
   - echo "In before_install of diff repo"
+env: 
+  global: 
+    - test-var='test'
 script: true
