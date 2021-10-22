@@ -5,5 +5,5 @@ before_install:
   - echo "In install section of diff repo"
 env: 
   global: 
-    - test-var='test'
+    - test_var='test2'
 script: true
